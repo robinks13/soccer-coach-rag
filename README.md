@@ -1,8 +1,8 @@
-# Assistant coach football — V1
+# Assistant coach de soccer — V1
 
 [Read this documentation in English](README.en.md).
 
-Petit projet RAG local qui répond aux questions d'entraînement football à partir de PDF. Il combine une recherche sémantique et une recherche par mots-clés, puis confie la rédaction à Qwen via Ollama. Les sources consultées apparaissent à la fin de chaque réponse.
+Petit projet RAG local qui répond aux questions d'entraînement de soccer à partir de PDF. Il combine une recherche sémantique et une recherche par mots-clés, puis confie la rédaction à Qwen via Ollama. Les sources consultées apparaissent à la fin de chaque réponse.
 
 J'ai utilisé GPT-5.6-sol pour m'aider à développer et à déboguer cette V1.
 
@@ -10,7 +10,7 @@ Les PDF du corpus peuvent être en français ou en anglais. Tu peux poser une qu
 
 ## Préparer le projet
 
-Pré-requis : Python (développé avec 3.14), [Ollama](https://ollama.com/) et des PDF de football placés dans `data/`.
+Pré-requis : Python (développé avec 3.14), [Ollama](https://ollama.com/) et des PDF de soccer placés dans `data/`.
 
 ```bash
 python3 -m venv venv
