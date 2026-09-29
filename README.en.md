@@ -1,8 +1,8 @@
-# Football Coach Assistant — V1
+# Soccer Coach Assistant — V1
 
 [Lire cette documentation en français](README.md).
 
-This local RAG project answers football coaching questions using PDF documents. It combines semantic and keyword search, then asks Qwen through Ollama to write the answer. The documents used are listed at the end of each response.
+This local RAG project answers soccer coaching questions using PDF documents. It combines semantic and keyword search, then asks Qwen through Ollama to write the answer. The documents used are listed at the end of each response.
 
 I used GPT-5.6-sol to help develop and debug this V1.
 
@@ -10,7 +10,7 @@ The PDF collection can contain both English and French documents. You can ask qu
 
 ## Setup
 
-You need Python (developed with 3.14), [Ollama](https://ollama.com/), and football PDFs in the `data/` directory.
+You need Python (developed with 3.14), [Ollama](https://ollama.com/), and soccer PDFs in the `data/` directory.
 
 ```bash
 python3 -m venv venv
